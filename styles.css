@@ -3,10 +3,10 @@ body, html {
     padding: 0;
     height: 100%;
     color: #FFFFFF;
-    font-family: Helvetica;
+    font-family: 'Helvetica', sans-serif;
+    overflow: hidden;
 }
-#container {
-    background-image: url(darkgreen.jpg);
+#indexContainer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -20,16 +20,36 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
+
+#Container {
+
+     background-image: url(carbon_fibre.png);
+     background-position: 50% 50%;
+     margin: 0 auto;
+     padding: 0;
+     clear: both;
+     position: relative;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     overflow: hidden;
+     height: 100%;
+
+ }
 .centerbox {
     width: 90%;
     margin: 0 auto;
+    overflow: hidden;
 }
 .header {
     width: 100%;
     padding: 10px;
     border-bottom: 3px solid #FFFFFF;
     overflow: hidden;
+    background: rgba(0,0,0,.6)
 }
 .logo {
     float: left;
@@ -45,14 +65,23 @@ body, html {
 .nav a {
     text-decoration: none;
     color: #FFFFFF;
-    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav .active {
+    color: darkred;
 }
 .rightsection {
     float: right;
     padding-top: 20%;
-    padding-right: 30%;
+    padding-right: 25%;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-h2 {
+#webdev {
+    background: rgba(0,0,0,.4);
+    padding-left: 10px;
+    border-radius: 30px;
+}
+h1 {
     font-size: 80px;
     margin: 0;
 }
@@ -72,4 +101,140 @@ p {
 }
 .footer div {
     margin-right: 30px;
+}
+#content {
+    height: 88%;
+    background: rgba(0, 0, 0, .5);
+    margin-top: 20px;
+}
+#content p {
+    font-size: 16px;
+    font-family: 'Helvetica', sans-serif;
+}
+.formText {
+    text-align: center;
+}
+h2 {
+    padding-top: 20px;
+}
+#signIn {
+    position: relative;
+    top: 20%;
+    margin: auto;
+    background-color: rgba(84,84,84,.9);
+    width: 400px;
+    height: 400px;
+    padding-top: 20px;
+}
+#signUp {
+    position: relative;
+    top: 10%;
+    margin: auto;
+    background-color: rgba(84,84,84,.9);
+    width: 500px;
+    height: 600px;
+    padding-top: 20px;
+
+}
+#signUp p {
+    text-align: center;
+    margin: 15px;
+}
+.typebox {
+    height: 30px;
+    font-size: 18px;
+    border: 1px solid #000;
+    padding-left: 5px;
+    display: block;
+    margin: 10px auto;
+
+}
+.top {
+    margin-top: 10%;
+}
+
+#color {
+    width: 150px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 30%;
+}
+.mySignInButton {
+    -moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+    box-shadow:inset 0px 1px 0px 0px #f29c93;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8b0000), color-stop(1, #ce0100));
+    background:-moz-linear-gradient(top, #8b0000 5%, #ce0100 100%);
+    background:-webkit-linear-gradient(top, #8b0000 5%, #ce0100 100%);
+    background:-o-linear-gradient(top, #8b0000 5%, #ce0100 100%);
+    background:-ms-linear-gradient(top, #8b0000 5%, #ce0100 100%);
+    background:linear-gradient(to bottom, #8b0000 5%, #ce0100 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8b0000', endColorstr='#ce0100',GradientType=0);
+    background-color:#8b0000;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #d83526;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #b23e35;
+    margin-left: 38%;
+}
+.mySignUpButton {
+    -moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+    box-shadow:inset 0px 1px 0px 0px #f29c93;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8b0000), color-stop(1, #ce0100));
+    background:-moz-linear-gradient(top, #8b0000 5%, #ce0100 100%);
+    background:-webkit-linear-gradient(top, #8b0000 5%, #ce0100 100%);
+    background:-o-linear-gradient(top, #8b0000 5%, #ce0100 100%);
+    background:-ms-linear-gradient(top, #8b0000 5%, #ce0100 100%);
+    background:linear-gradient(to bottom, #8b0000 5%, #ce0100 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8b0000', endColorstr='#ce0100',GradientType=0);
+    background-color:#8b0000;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #d83526;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #b23e35;
+    margin-left: 39%;
+    margin-top: 20px;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #8b0000));
+    background:-moz-linear-gradient(top, #ce0100 5%, #8b0000 100%);
+    background:-webkit-linear-gradient(top, #ce0100 5%, #8b0000 100%);
+    background:-o-linear-gradient(top, #ce0100 5%, #8b0000 100%);
+    background:-ms-linear-gradient(top, #ce0100 5%, #8b0000 100%);
+    background:linear-gradient(to bottom, #ce0100 5%, #8b0000 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#8b0000',GradientType=0);
+    background-color:#ce0100;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+.notMember {
+    margin-top: 25px;
+}
+.formText a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+.color {
+    float: left
 }

@@ -2,36 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Contact</title>
 
     <link href="styles.css"
           rel="stylesheet"
           type="text/css"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed"
-          rel="stylesheet">
     <link href="superman%20icon.png"
           rel="icon"
           type="favicon"/>
 </head>
 <body>
-    <div id="indexContainer" style="background-image: url(darkgreen.jpg);">
+    <div id="Container">
         <div class="centerbox">
             <div class="header">
                 <div class="logo"><a href="index.html">Tanner Spaulding</a></div>
                 <div class="nav">
                     <a href="Tanner%20Spaulding%20resume.pdf" target="_blank">resume</a>
                     <a href="about.html">about</a>
-                    <a href="signin.html">sign in</a>
+                    <a href="signin.html" class="active">sign in</a>
                 </div>
 
             </div>
-            <div class="main">
-                <div class="rightsection">
-                    <div id="webdev">
-                        <h1>web development</h1>
-                        <p class="content">fall 2016 portfolio project</p>
-                    </div>
-                </div>
+        </div>
+        <div class="centerbox" id="content">
+
+
+            <div id="signIn">
+                <h2 class="formText">Want to see all the content?</h2>
+                <p class="formText">Sign in here first</p>
+                <input class="typebox" type="email" placeholder="Email"/>
+                <input class="typebox" type="password" placeholder="Password"/>
+                <a href="#" class="mySignInButton">Sign in</a>
+                <h3 class="formText notMember">Not a member?</h3>
+                <p class="formText">
+                    <a href="signup.html">sign up here</a>
+                </p>
+
             </div>
 
         </div>
@@ -41,6 +47,7 @@
             </div>
         </div>
     </div>
+
 
 </body>
 </html>
