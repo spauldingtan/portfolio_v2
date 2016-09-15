@@ -68,7 +68,7 @@ body, html {
     padding-right: 20px;
 }
 .nav .active {
-    color: darkred;
+    color: royalblue;
 }
 .rightsection {
     float: right;
@@ -117,7 +117,7 @@ p {
 h2 {
     padding-top: 20px;
 }
-#signIn {
+#login {
     position: relative;
     top: 20%;
     margin: auto;
@@ -125,6 +125,15 @@ h2 {
     width: 400px;
     height: 400px;
     padding-top: 20px;
+}
+#login h2 {
+    color: #ffffff;
+}
+#login h3 {
+    color: #ffffff;
+}
+#login p {
+    color: #ffffff;
 }
 #signUp {
     position: relative;
@@ -139,6 +148,11 @@ h2 {
 #signUp p {
     text-align: center;
     margin: 15px;
+    color: #ffffff;
+}
+#signUp button {
+    margin-left: 43%;
+    clear: left;
 }
 .typebox {
     height: 30px;
@@ -159,75 +173,7 @@ h2 {
     padding-top: 5px;
     padding-left: 30%;
 }
-.mySignInButton {
-    -moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
-    -webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
-    box-shadow:inset 0px 1px 0px 0px #f29c93;
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8b0000), color-stop(1, #ce0100));
-    background:-moz-linear-gradient(top, #8b0000 5%, #ce0100 100%);
-    background:-webkit-linear-gradient(top, #8b0000 5%, #ce0100 100%);
-    background:-o-linear-gradient(top, #8b0000 5%, #ce0100 100%);
-    background:-ms-linear-gradient(top, #8b0000 5%, #ce0100 100%);
-    background:linear-gradient(to bottom, #8b0000 5%, #ce0100 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8b0000', endColorstr='#ce0100',GradientType=0);
-    background-color:#8b0000;
-    -moz-border-radius:6px;
-    -webkit-border-radius:6px;
-    border-radius:6px;
-    border:1px solid #d83526;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Arial;
-    font-size:15px;
-    font-weight:bold;
-    padding:6px 24px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #b23e35;
-    margin-left: 38%;
-}
-.mySignUpButton {
-    -moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
-    -webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
-    box-shadow:inset 0px 1px 0px 0px #f29c93;
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8b0000), color-stop(1, #ce0100));
-    background:-moz-linear-gradient(top, #8b0000 5%, #ce0100 100%);
-    background:-webkit-linear-gradient(top, #8b0000 5%, #ce0100 100%);
-    background:-o-linear-gradient(top, #8b0000 5%, #ce0100 100%);
-    background:-ms-linear-gradient(top, #8b0000 5%, #ce0100 100%);
-    background:linear-gradient(to bottom, #8b0000 5%, #ce0100 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8b0000', endColorstr='#ce0100',GradientType=0);
-    background-color:#8b0000;
-    -moz-border-radius:6px;
-    -webkit-border-radius:6px;
-    border-radius:6px;
-    border:1px solid #d83526;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Arial;
-    font-size:15px;
-    font-weight:bold;
-    padding:6px 24px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #b23e35;
-    margin-left: 39%;
-    margin-top: 20px;
-}
-.myButton:hover {
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #8b0000));
-    background:-moz-linear-gradient(top, #ce0100 5%, #8b0000 100%);
-    background:-webkit-linear-gradient(top, #ce0100 5%, #8b0000 100%);
-    background:-o-linear-gradient(top, #ce0100 5%, #8b0000 100%);
-    background:-ms-linear-gradient(top, #ce0100 5%, #8b0000 100%);
-    background:linear-gradient(to bottom, #ce0100 5%, #8b0000 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#8b0000',GradientType=0);
-    background-color:#ce0100;
-}
-.myButton:active {
-    position:relative;
-    top:1px;
-}
+
 .notMember {
     margin-top: 25px;
 }
@@ -237,4 +183,7 @@ h2 {
 }
 .color {
     float: left
+}
+#login .btn-danger {
+    margin-left: 42%;
 }
